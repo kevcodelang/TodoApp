@@ -10,7 +10,7 @@ class CountryAdapter(val countries: List<Country>) :
     RecyclerView.Adapter<CountryAdapter.CountryViewHolder>() {
     class CountryViewHolder(var binding: CountryItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun blind(country: Country) {
+        fun bind(country: Country) {
             binding.continent.text = country.continent
             binding.countryName.text = country.name
             binding.population.text = country.population.toString()
@@ -23,7 +23,8 @@ class CountryAdapter(val countries: List<Country>) :
     }
 
     override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val countries = countries[position]
+        holder.bind(country)
     }
 
     override fun getItemCount(): Int {
