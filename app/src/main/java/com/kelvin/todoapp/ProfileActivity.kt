@@ -11,9 +11,5 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
-        homeButton = findViewById(R.id.homeButton)
-        homeButton.setOnContextClickListener {
-            val anyIntent = Intent
-        }
     }
 }
