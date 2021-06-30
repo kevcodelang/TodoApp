@@ -24,7 +24,7 @@ class CountryAdapter(val countries: List<Country>) :
     }
 
     override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {
-        val countries = countries[position]
+        val country = countries[position]
         holder.bind(country)
     }
 
