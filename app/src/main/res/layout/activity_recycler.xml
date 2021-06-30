@@ -4,19 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="50dp"
     tools:context=".RecyclerActivity">
+
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/countryRecyclerView"
-
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"        android:layout_width="136dp"
+        android:layout_height="285dp"
         />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
