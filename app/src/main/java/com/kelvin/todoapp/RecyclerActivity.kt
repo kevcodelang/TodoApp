@@ -24,7 +24,7 @@ class RecyclerActivity : AppCompatActivity() {
                 40L
             ),
             Country(
-                R.drawable.ic_usa
+                R.drawable.ic_usa,
                 "America",
                 "North America",
                 45L

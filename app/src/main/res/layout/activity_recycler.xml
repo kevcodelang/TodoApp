@@ -9,11 +9,11 @@
 
 
 
-    <androidx.recyclerview.widget.RecyclerView
+ <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/countryRecyclerView"
 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"        android:layout_width="136dp"
         android:layout_height="285dp"
-        />
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
